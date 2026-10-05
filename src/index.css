@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, sans-serif;
+  --font-headline: "Playfair Display", Georgia, serif;
+  --font-body: "Plus Jakarta Sans", system-ui, sans-serif;
+
+  --color-primary: #0c2d17;
+  --color-primary-container: #23432b;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #8cb091;
+  --color-primary-fixed: #c6ecca;
+  --color-primary-fixed-dim: #abd0af;
+
+  --color-secondary: #994703;
+  --color-secondary-container: #fc934f;
+  --color-secondary-fixed: #ffdbc9;
+  --color-secondary-fixed-dim: #ffb68c;
+  --color-on-secondary-fixed: #321200;
+
+  --color-tertiary: #421a12;
+  --color-on-tertiary: #ffffff;
+
+  --color-surface: #fcf9f4;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f6f3ee;
+  --color-surface-container: #f0ede9;
+  --color-surface-container-high: #ebe8e3;
+  --color-surface-container-highest: #e5e2dd;
+  --color-on-surface: #1c1c19;
+  --color-on-surface-variant: #424842;
+  --color-outline: #727971;
+  --color-outline-variant: #c2c8bf;
+  --color-inverse-surface: #31302d;
+  --color-inverse-on-surface: #f3f0eb;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+  }
+  
+  body {
+    background-color: #fcf9f4;
+    color: #1c1c19;
+  }
+
+  h1, h2, h3, .font-headline {
+    font-family: var(--font-serif);
+  }
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+}
+
+/* Custom scrollbars hidden */
+::-webkit-scrollbar {
+  display: none;
+}
+

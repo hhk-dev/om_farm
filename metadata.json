@@ -1,0 +1,6 @@
+{
+  "name": "Om Farm Botanicals",
+  "description": "Handcrafted cold-process Ayurvedic soaps slow-cured for four weeks with wild turmeric, keshuda blossoms, and botanical oils.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
